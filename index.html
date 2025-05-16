@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light"> <!-- 默认主题，JS会覆盖 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐乐笔记</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet"> <!-- 使用 Noto Sans SC 作为示例 -->
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a href="/" class="site-title">乐乐笔记</a>
+            <nav class="site-nav">
+                <a href="#"></a>
+                <button id="theme-toggle" aria-label="切换主题">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+            </nav>
+        </header>
+
+        <main class="site-content">
+
+
+            <article class="post">
+                <header class="post-header">
+                    <h2>第一篇</h2>
+                    <p class="post-meta">发布于 <time datetime="2025-5-15">2025年5月15日</time></p>
+                </header>
+                <div class="post-content">
+                    <p>今天心情有点不好,没什么好说的...</p>
+                    <blockquote>
+                        <p>yu:19.5 shu:34 ying:23.25</p>
+                    </blockquote>
+                </div>
+            </article>
+
+            <!-- 更多文章可以放在这里 -->
+
+        </main>
+
+        <footer class="site-footer">
+            <p>© copyright 2025 Computer Science founder 电脑科学创始人. All rights reserved 保留所有权力.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- 如果需要代码高亮，可以引入类似 Prism.js 或 highlight.js 的库 -->
+    <!-- <script src="path/to/prism.js"></script> -->
+</body>
+</html>
